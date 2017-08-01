@@ -91,8 +91,7 @@ Namespaces are one honking great idea -- let's do more of those!
 	* [ ] Use the function `print`
 #### Mandatory 3 ####
 3. **Print integer**
-	* [ ] Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
-	* [Source Code](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py)
+	* [ ] Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py) in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
 	* The output of the script should be:
 		* the number, followed by Battery street,
 		* followed by a new line
@@ -100,8 +99,7 @@ Namespaces are one honking great idea -- let's do more of those!
 	* [ ] Your code must be 3 lines long
 #### Mandatory 4 ####
 4. **Print float** 
-	* [ ]Complete the source code in order to print the float stored in the variable number with a precision of 2 digits.
-	* [Source code](https://github.com/holbertonschool/0x00.py/blob/master/4-print_float.py)
+	* [ ]Complete the [source code](https://github.com/holbertonschool/0x00.py/blob/master/4-print_float.py) in order to print the float stored in the variable number with a precision of 2 digits.
 	* The output of the program should be:
 		* `Float`:, followed by the float with only 2 digits
 		* followed by a new line
@@ -109,8 +107,7 @@ Namespaces are one honking great idea -- let's do more of those!
 	* You have to use the new print formatting [tips](https://pyformat.info/#number_padding)
 #### Mandatory 5 ####
 5. **Print string**
-	* [ ] Complete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
-	* [Source code](https://github.com/holbertonschool/0x00.py/blob/master/5-print_string.py)
+	* [ ] Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/5-print_string.py) in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
 	* The output of the program should be:
 		* 3 times the value of str
 		* followed by a new line
@@ -120,8 +117,7 @@ Namespaces are one honking great idea -- let's do more of those!
 	* Your program should be maximum 5 lines long
 #### Mandatory 6 ####
 6. **Play with strings**
-	* [ ] Complete this source code to print `Welcome to Holberton School!`
-	* [Source code](https://github.com/holbertonschool/0x00.py/blob/master/6-concat.py)
+	* [ ] Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/6-concat.py) to print `Welcome to Holberton School!`
 	* You are not allowed to use any loops or conditional statements.
 	* You have to use the variables `str1` and `str2` in your new line of code
 	* Your program should be exactly 5 lines long
