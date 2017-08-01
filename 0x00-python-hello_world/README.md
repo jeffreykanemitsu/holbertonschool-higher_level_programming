@@ -55,7 +55,7 @@ All your files will be interpreted/compiled on Ubuntu 14.04 LTS using 'python3' 
 * All your files must be executable
 * The length of your files will be tested using wc
 ### Zen ###
-`The Zen of Python, by Tim Peters
+The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
 Explicit is better than implicit.
@@ -75,7 +75,7 @@ Now is better than never.
 Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!`
+Namespaces are one honking great idea -- let's do more of those!
 ### Tasks ###
 #### Mandatory 0 ####
 0. **Run Python file**
@@ -98,4 +98,49 @@ Namespaces are one honking great idea -- let's do more of those!`
 		* followed by a new line
 	* [ ]You are not allowed to cast the variable number into a string
 	* [ ] Your code must be 3 lines long
-
+#### Mandatory 4 ####
+4. **Print float** 
+	* [ ]Complete the source code in order to print the float stored in the variable number with a precision of 2 digits.
+	* [Source code](https://github.com/holbertonschool/0x00.py/blob/master/4-print_float.py)
+	* The output of the program should be:
+		* `Float`:, followed by the float with only 2 digits
+		* followed by a new line
+	* You are not allowed to cast number to string
+	* You have to use the new print formatting [tips](https://pyformat.info/#number_padding)
+#### Mandatory 5 ####
+5. **Print string**
+	* [ ] Complete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
+	* [Source code](https://github.com/holbertonschool/0x00.py/blob/master/5-print_string.py)
+	* The output of the program should be:
+		* 3 times the value of str
+		* followed by a new line
+		* followed by the 9 first characters of str
+		* followed by a new line
+	* You are not allowed to use any loops or conditional statement
+	* Your program should be maximum 5 lines long
+#### Mandatory 6 ####
+6. **Play with strings**
+	* [ ] Complete this source code to print `Welcome to Holberton School!`
+	* [Source code](https://github.com/holbertonschool/0x00.py/blob/master/6-concat.py)
+	* You are not allowed to use any loops or conditional statements.
+	* You have to use the variables `str1` and `str2` in your new line of code
+	* Your program should be exactly 5 lines long
+#### Mandatory 7 ####
+7. **Copy - Cut - Paste**
+	* [ ] Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/7-edges.py)
+	* You are not allowed to use any loops or conditional statements
+	* Your program should be exactly 8 lines long
+	* [ ] `word_first_3` should contain the first 3 letters of the variable `word`
+	* [ ] `word_last_2` should contain the last 2 letters of the variable `word`
+	* [ ] `middle_word` should contain the value of the variable `word` without the first and last letters
+#### Mandatory 8 ####
+8. **Create a new sentence**
+	* Complete this [source code](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py) to print object-oriented programming with Python, followed by a new line.
+	* You are not allowed to use any loops or conditional statements
+	* Your program should be exactly 5 lines long
+	* You are not allowed to create new variables
+	* You are not allowed to use string literals
+#### Mandatory 9 ####
+9. **Easter Egg**
+	* [ ] Write a Python script that prints "The Zen of Python", by TimPeters, followed by a new line.
+	* [ ] Your script should be maximum 98 characters long (please check with `wc -m 9-easter_egg.py`)
