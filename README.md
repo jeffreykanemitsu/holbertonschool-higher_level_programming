@@ -37,7 +37,7 @@
 ### Description ###
 Understanding concepts of the high-level language
 <p align="center">
-<img src="http://www.bebetterdeveloper.com/img/post_img/python-logo.png" alt="https://www.python.org/"/>
+<a href="https://www.python.org/" target="blank"><img src="http://www.bebetterdeveloper.com/img/post_img/python-logo.png"/>
 </p>
 
 ### Objectives ###
