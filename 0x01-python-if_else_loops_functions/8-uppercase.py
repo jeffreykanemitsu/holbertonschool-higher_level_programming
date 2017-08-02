@@ -5,5 +5,3 @@ def uppercase(str):
             x = chr(ord(x) - 32)
         print("{:s}".format(x), end="")
     print(end="\n")
-uppercase("holberton")
-uppercase("Holberton School 98 Battery street")
