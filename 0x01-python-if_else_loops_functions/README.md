@@ -5,7 +5,7 @@
 # 0x01. Python - if/else, loops, functions #
 
 * [Table of Contents](#table-of-contents) 
-	* [Author](#Author)	
+	* [Author](#author)	
 	* [Description](#description)
 	* [Objectives](#objectives)
 	* [Compilation](#compilation)
