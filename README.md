@@ -2,7 +2,8 @@
 <a href="https://www.holbertonschool.com/"><img src="https://s3.amazonaws.com/bloc-global-assets/almanac-assets/bootcamps/logos/000/002/676/original/Holberton-School.png?1467187334"/>
 </p>
 
-![Python](https://img.shields.io/badge/python-3.4-blue.svg)
+![Python](https://img.shields.io/badge/python-v3.4-blue.svg)
+
 # Title #
 
 * [Table of Contents](#table-of-contents) 
