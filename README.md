@@ -1,51 +1,52 @@
 <p align="center">
 <a href="https://www.holbertonschool.com/"><img src="https://s3.amazonaws.com/bloc-global-assets/almanac-assets/bootcamps/logos/000/002/676/original/Holberton-School.png?1467187334"/>
+</a>
 </p>
 
 ![Python](https://img.shields.io/badge/python-v3.4-blue.svg)
 
-# Title #
+# Title  #
 
-* [Table of Contents](#table-of-contents) 
-	* [Author](#author)	
-	* [Description](#description)
-	* [Objectives](#objectives)
-	* [Compilation](#compilation)
-	* [Requirements](#requirements)
-	* [Zen](#zen)
-	* [Tasks](#tasks)
-	  * [Mandatory 0](#mandatory-0)
-	  * [Mandatory 1](#mandatory-1)
-	  * [Mandatory 2](#mandatory-2)
-	  * [Mandatory 3](#mandatory-3)
-	  * [Mandatory 4](#mandatory-4)
-	  * [Mandatory 5](#mandatory-5)
-	  * [Mandatory 6](#mandatory-6)
-	  * [Mandatory 7](#mandatory-7)
-	  * [Mandatory 8](#mandatory-8)
-	  * [Mandatory 9](#mandatory-9)
-	  * [Mandatory 10](#mandatory-10)
-	  * [Mandatory 11](#mandatory-11)
-	  * [Mandatory 12](#mandatory-12)
-	  * [Mandatory 13](#mandatory-13)
-	  * [Mandatory 14](#mandatory-14)
-	  * [Mandatory 15](#mandatory-15)
-
+* [Table of Contents](#table-of-contents)
+        * [Author](#author)
+        * [Description](#description)
+        * [Objectives](#objectives)
+        * [Compilation](#compilation)
+        * [Requirements](#requirements)
+        * [Zen](#zen)
+        * [Tasks](#tasks)
+          * [Mandatory 0](#mandatory-0)
+          * [Mandatory 1](#mandatory-1)
+          * [Mandatory 2](#mandatory-2)
+          * [Mandatory 3](#mandatory-3)
+          * [Mandatory 4](#mandatory-4)
+          * [Mandatory 5](#mandatory-5)
+          * [Mandatory 6](#mandatory-6)
+          * [Mandatory 7](#mandatory-7)
+          * [Mandatory 8](#mandatory-8)
+          * [Mandatory 9](#mandatory-9)
+          * [Mandatory 10](#mandatory-10)
+          * [Mandatory 11](#mandatory-11)
+          * [Mandatory 12](#mandatory-12)
 ### Author ###
 * Jeffrey Kanemitsu
-	* [Github](https://github.com/jeffreykanemitsu)	
-	* [Twitter](https://twitter.com/canofmisosoup)
-
+        * [Github](https://github.com/jeffreykanemitsu)
+        * [Twitter](https://twitter.com/canofmisosoup)
 ### Description ###
-Understanding concepts of the high-level language
+Understanding concepts of the high-level language.
+
 <p align="center">
 <a href="https://www.python.org/"><img src="http://www.bebetterdeveloper.com/img/post_img/python-logo.png"/>
+</a>
 </p>
 
 ### Objectives ###
+
 ### Compilation ###
 All your files will be interpreted/compiled on Ubuntu 14.04 LTS using 'python3' (version 3.4.3)
+
 ### Requirements ###
+
 ### Zen ###
 The Zen of Python, by Tim Peters
 
@@ -68,6 +69,7 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
+
 ### Tasks ###
 #### Mandatory 0 ####
 #### Mandatory 1 ####
@@ -82,7 +84,3 @@ Namespaces are one honking great idea -- let's do more of those!
 #### Mandatory 10 ####
 #### Mandatory 11 ####
 #### Mandatory 12 ####
-#### Mandatory 13 ####
-#### Mandatory 14 ####
-#### Mandatory 15 ####
-
