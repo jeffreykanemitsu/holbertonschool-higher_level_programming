@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://s3.amazonaws.com/bloc-global-assets/almanac-assets/bootcamps/logos/000/002/676/original/Holberton-School.png?1467187334" alt="Holberton's logo"/>
+<a href="https://www.holbertonschool.com/"><img src="https://s3.amazonaws.com/bloc-global-assets/almanac-assets/bootcamps/logos/000/002/676/original/Holberton-School.png?1467187334"/>
 </p>
 
 # Title #
@@ -37,7 +37,7 @@
 ### Description ###
 Understanding concepts of the high-level language
 <p align="center">
-<a href="https://www.python.org/" target="_blank"><img src="http://www.bebetterdeveloper.com/img/post_img/python-logo.png"/>
+<a href="https://www.python.org/"><img src="http://www.bebetterdeveloper.com/img/post_img/python-logo.png"/>
 </p>
 
 ### Objectives ###
