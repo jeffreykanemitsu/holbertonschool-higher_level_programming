@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://pbs.twimg.com/profile_images/644908719050850305/LbLzZ2vf.jpg" alt="Holberton's logo"/>
+<img src="https://s3.amazonaws.com/bloc-global-assets/almanac-assets/bootcamps/logos/000/002/676/original/Holberton-School.png?1467187334" alt="Holberton's logo"/>
 </p>
 
 # 0x01. Python - if/else, loops, functions #
