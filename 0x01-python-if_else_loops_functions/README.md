@@ -38,6 +38,7 @@ Understanding concepts of the high-level language
 <a href="https://www.python.org/"><img src="http://www.bebetterdeveloper.com/img/post_img/python-logo.png"/>
 </a>
 </p>
+
 ### Objectives ###
 * Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
 * Why indentation is so important in Python
