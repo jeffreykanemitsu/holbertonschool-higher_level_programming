@@ -1,6 +1,9 @@
 <p align="center">
-<img src="https://pbs.twimg.com/profile_images/644908719050850305/LbLzZ2vf.jpg" alt="Holberton's logo"/>
+<a href="https://www.holbertonschool.com/"><img src="https://s3.amazonaws.com/bloc-global-assets/almanac-assets/bootcamps/logos/000/002/676/original/Holberton-School.png?1467187334"/>
+</a>
 </p>
+
+![Python](https://img.shields.io/badge/python-v3.4-blue.svg)
 
 # 0x00. Python - Hello, World #
 
@@ -25,11 +28,17 @@
 
 ### Author ###
 * Jeffrey Kanemitsu
-	* https://github.com/jeffreykanemitsu
-	* https://twitter.com/canofmisosoup
+	* [Github](https://github.com/jeffreykanemitsu)	
+	* [Twitter](https://twitter.com/canofmisosoup)
 
 ### Description ###
-First project to introduce the higher-level programming language - Python.
+First project to introduce the high-level programming language:
+<p align="center">
+<a href="https://www.python.org/"><img src="http://www.bebetterdeveloper.com/img/post_img/python-logo.png"/>
+</a>
+</p>
+
+
 ### Objectives ###
 * At the end of the project, you are expected to explain to anyone, without the help of Google:
  * Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
