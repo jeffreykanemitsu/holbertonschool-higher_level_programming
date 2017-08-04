@@ -4,4 +4,4 @@ if __name__ == "__main__":
     LOL = dir(hidden_4)
     for x in LOL:
         if x != "_":
-          print("{:s}".format(x), end="\n")
+            print("{}".format(x), end="\n")
