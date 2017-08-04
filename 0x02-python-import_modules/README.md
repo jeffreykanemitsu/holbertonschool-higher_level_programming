@@ -104,25 +104,31 @@ Namespaces are one honking great idea -- let's do more of those!
 	* You are not allowed to use `*` for importing
 	* Your code should not be executed when imported
 #### Mandatory 2 ####
-1. **How to make a script dynamic!**
-<p>Write a program that prints the number of and the list of its arguments.</p>
-
-<ul>
-<li>The output should be:
-
-<ul>
-<li>Number of argument(s) followed by <code>argument</code> or <code>arguments</code>, followed by</li>
-<li><code>:</code> (or <code>.</code> if no argument where passed) followed by</li>
-<li>a new line, followed by (if at least one argument),</li>
-<li>one line per argument:
-
-<ul>
-<li>the position of the argument (starting at <code>1</code>) followed by <code>:</code>, followed by the argument value and a new line</li>
-</ul></li>
-</ul></li>
-<li>Your code should not be executed when imported</li>
-<li>The number of elements of <code>argv</code> can be retrieved by using: <code>len(argv)</code></li>
-<li>You do not have to fully understand lists yet, but imagine that <code>argv</code> can be used just like a C array: you can use an index to walk through it. There are other ways (preferred in a near Future), if you know them you can use them.</li>
-</ul>
+2. **How to make a script dynamic!**
+* Write a program that prints the number of and the list of its arguments.
+	* The output should be:
+		* Number of argument(s) followed by argument or arguments, followed by
+		* `:` (or `.` if no argument where passed) followed by
+		* one line per argument:
+			* the position of the argument (starting at `1`) followed by `:`, followed by the argument value and a new line
+	* Your code should not be executed when imported
+	* The number of elements of `argv` can be retrieved by using: `len(argv)`
+	* You do not have to fully understand lists yet, but imagine that `argv` can be used just like a C array: you can use an index to walk through it. There are other ways (preferred in a near Future), if you know them you can use them.
 #### Mandatory 3 ####
+3. **Infinite addition**
+* Write a program that prints the result of the addition of all arguments
+	* The output should be the result of the addition of all arguments, followed by a new line
+	* You can cast arguments into integers by using `int()` (you can assume that all arguments can be casted into integers)
+	* Your code should not be executed when imported
 #### Mandatory 4 ####
+4. **Who are you?**
+* Write a program that prints all the names defined by the compiled module [hidden_4.pyc](https://github.com/holbertonschool/0x02.py/raw/master/hidden_4.pyc) (please download it locally).
+	* You should print one name per line, in alpha order
+	* You should print only names that do not start with `__`
+	* Your code should not be executed when imported
+
+#### Mandatory 5 ####
+**Everything can be imported**
+* Write a program that imports the variable `a` from the file `variable_load_5.py` and prints its value.
+	* You are not allowed to use `*` for importing
+	* Your code should not be executed when imported
