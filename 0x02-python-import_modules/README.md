@@ -5,7 +5,7 @@
 
 ![Python](https://img.shields.io/badge/python-v3.4-blue.svg)
 
-# Title  #
+# 0x02. Python - import & modules  #
 
 * [Table of Contents](#table-of-contents)
 	* [Author](#author)
@@ -21,13 +21,6 @@
 	  * [Mandatory 3](#mandatory-3)
 	  * [Mandatory 4](#mandatory-4)
 	  * [Mandatory 5](#mandatory-5)
-	  * [Mandatory 6](#mandatory-6)
-	  * [Mandatory 7](#mandatory-7)
-	  * [Mandatory 8](#mandatory-8)
-	  * [Mandatory 9](#mandatory-9)
-	  * [Mandatory 10](#mandatory-10)
-	  * [Mandatory 11](#mandatory-11)
-	  * [Mandatory 12](#mandatory-12)
 ### Author ###
 * Jeffrey Kanemitsu
     * [Github](https://github.com/jeffreykanemitsu)
@@ -41,11 +34,26 @@ Understanding concepts of the high-level language.
 </p>
 
 ### Objectives ###
+* Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
+* How to import functions from another file
+* How to use imported functions
+* How to create a module
+* How to use the built-in function dir()
+* How to prevent code in your script from being executed when imported
+* How to use command line arguments with your Python programs
 
 ### Compilation ###
 All your files will be interpreted/compiled on Ubuntu 14.04 LTS using 'python3' (version 3.4.3)
 
 ### Requirements ###
+* Allowed editors: `vi`, `vim`, `emacs`
+* All your files will be interpreted/compiled on Ubuntu 14.04 LTS using `python3` (version 3.4.3)
+* All your files should end with a new line
+* The first line of all your files should be exactly `#!/usr/bin/python3`
+* A `README.md` file, at the root of the folder of the project, is mandatory
+* Your code should use the `PEP 8` style
+* All your files must be executable
+* The length of your files will be tested using `wc`
 
 ### Zen ###
 The Zen of Python, by Tim Peters
@@ -72,15 +80,49 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ### Tasks ###
 #### Mandatory 0 ####
+0. **Import a simple function from a simple file**
+* Write a program that imports the function `def add(a, b):` from the file `add_0.py` and prints the result of the addition `1 + 2 = 3`
+	* You have to use `print` function with string format to display integers
+	* You have to assign:
+		* the value `1` to a variable called `a`
+		* the value `2` to a variable called `b`
+		* and use those two variables as arguments when calling the functions `add` and `print`
+	* Your program should print: `<a value> + <b value> = <add(a, b) value>` followed with a new line
+	* You can only use the word `add_0` once in your code
+	* You are not allowed to use `*` for importing
+	* Your code should not be executed when imported
 #### Mandatory 1 ####
+1. **My first toolbox!**
+* Write a program that imports functions from the file `calculator_1.py`, does some Maths, and prints the result.
+	* Do not use the function `print` (with string format to display integers) more than 4 times
+	* You have to define:
+		* the value `10` to a variable `a`
+		* the value `5` to a variable `b`
+	* and use those two variables only, as arguments when calling functions (included `print`)
+	* Your program should call each of the imported functions. See example bellow for format
+	* the word `calculator_1` should be used only once in your file
+	* You are not allowed to use `*` for importing
+	* Your code should not be executed when imported
 #### Mandatory 2 ####
+1. **How to make a script dynamic!**
+<p>Write a program that prints the number of and the list of its arguments.</p>
+
+<ul>
+<li>The output should be:
+
+<ul>
+<li>Number of argument(s) followed by <code>argument</code> or <code>arguments</code>, followed by</li>
+<li><code>:</code> (or <code>.</code> if no argument where passed) followed by</li>
+<li>a new line, followed by (if at least one argument),</li>
+<li>one line per argument:
+
+<ul>
+<li>the position of the argument (starting at <code>1</code>) followed by <code>:</code>, followed by the argument value and a new line</li>
+</ul></li>
+</ul></li>
+<li>Your code should not be executed when imported</li>
+<li>The number of elements of <code>argv</code> can be retrieved by using: <code>len(argv)</code></li>
+<li>You do not have to fully understand lists yet, but imagine that <code>argv</code> can be used just like a C array: you can use an index to walk through it. There are other ways (preferred in a near Future), if you know them you can use them.</li>
+</ul>
 #### Mandatory 3 ####
 #### Mandatory 4 ####
-#### Mandatory 5 ####
-#### Mandatory 6 ####
-#### Mandatory 7 ####
-#### Mandatory 8 ####
-#### Mandatory 9 ####
-#### Mandatory 10 ####
-#### Mandatory 11 ####
-#### Mandatory 12 ####
