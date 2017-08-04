@@ -4,7 +4,7 @@
 </p>
 
 ![Python](https://img.shields.io/badge/python-v3.4-blue.svg)
-![Holberton](https://img.shields.io/badge/Holberton-Batch 3-red.svg)
+![Holberton](https://img.shields.io/badge/Holberton-Batch_3-red.svg)
 
 
 # 0x02. Python - import & modules  #
