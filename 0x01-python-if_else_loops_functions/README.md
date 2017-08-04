@@ -3,8 +3,8 @@
 </a>
 </p>
 
-![Python](https://img.shields.io/badge/python-v3.4-blue.svg)
 ![Holberton](https://img.shields.io/badge/Holberton-Batch_3-red.svg)
+![Python](https://img.shields.io/badge/python-v3.4-blue.svg)
 
 # 0x01. Python - if/else, loops, functions #
 
