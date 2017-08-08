@@ -5,7 +5,7 @@
 
 ![Python](https://img.shields.io/badge/python-v3.4-blue.svg)
 
-# Title  #
+# Higher-level programming - Python #
 
 * [Table of Contents](#table-of-contents)
 	* [Author](#author)
@@ -26,8 +26,6 @@ Understanding concepts of the high-level language.
 <a href="https://www.python.org/"><img src="http://www.bebetterdeveloper.com/img/post_img/python-logo.png"/>
 </a>
 </p>
-
-### Objectives ###
 
 ### Compilation ###
 All your files will be interpreted/compiled on Ubuntu 14.04 LTS using 'python3' (version 3.4.3)
