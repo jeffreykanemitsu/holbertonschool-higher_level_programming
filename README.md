@@ -10,24 +10,10 @@
 * [Table of Contents](#table-of-contents)
 	* [Author](#author)
 	* [Description](#description)
-	* [Objectives](#objectives)
 	* [Compilation](#compilation)
 	* [Requirements](#requirements)
 	* [Zen](#zen)
-	* [Tasks](#tasks)
-	  * [Mandatory 0](#mandatory-0)
-	  * [Mandatory 1](#mandatory-1)
-	  * [Mandatory 2](#mandatory-2)
-	  * [Mandatory 3](#mandatory-3)
-	  * [Mandatory 4](#mandatory-4)
-	  * [Mandatory 5](#mandatory-5)
-	  * [Mandatory 6](#mandatory-6)
-	  * [Mandatory 7](#mandatory-7)
-	  * [Mandatory 8](#mandatory-8)
-	  * [Mandatory 9](#mandatory-9)
-	  * [Mandatory 10](#mandatory-10)
-	  * [Mandatory 11](#mandatory-11)
-	  * [Mandatory 12](#mandatory-12)
+	* [Projects](#projects)
 ### Author ###
 * Jeffrey Kanemitsu
     * [Github](https://github.com/jeffreykanemitsu)
@@ -79,17 +65,7 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 
-### Tasks ###
-#### Mandatory 0 ####
-#### Mandatory 1 ####
-#### Mandatory 2 ####
-#### Mandatory 3 ####
-#### Mandatory 4 ####
-#### Mandatory 5 ####
-#### Mandatory 6 ####
-#### Mandatory 7 ####
-#### Mandatory 8 ####
-#### Mandatory 9 ####
-#### Mandatory 10 ####
-#### Mandatory 11 ####
-#### Mandatory 12 ####
+### Projects ###
+* [0x00-python-hello_world](https://github.com/jeffreykanemitsu/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world)
+* [0x01-python-if_else_loops_functions](https://github.com/jeffreykanemitsu/holbertonschool-higher_level_programming/tree/master/0x01-python-if_else_loops_functions)
+* [0x02-python-import_modules](https://github.com/jeffreykanemitsu/holbertonschool-higher_level_programming/tree/master/0x02-python-import_modules)
