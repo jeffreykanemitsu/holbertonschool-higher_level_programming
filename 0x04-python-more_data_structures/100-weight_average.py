@@ -2,4 +2,4 @@
 def weight_average(my_list=[]):
     if my_list is None:
         return 0
-    return (sum([dend*sor for dend, sor in my_list]) / sum([sor for dend, sor in my_list]))
+    return (sum([x*y for x, y in my_list]) / sum([x for y, y in my_list]))
