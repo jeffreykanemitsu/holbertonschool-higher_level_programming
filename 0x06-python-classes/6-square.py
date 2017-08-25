@@ -4,7 +4,12 @@ class Square:
     Defines a square
     """
     def __init__(self, size=0, position=(0, 0)):
-        self.size = size
+        if not type(size) == int:
+            raise TypeError("size must be an integer")
+        elif size < 0:
+            raise ValueError("size must be >= 0")
+        else:
+            self.size = size
 
         if not (type(position[0]) == int) and type(position[1] == int):
             raise TypeError("position must be a tuple of 2 positive integers")
