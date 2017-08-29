@@ -48,3 +48,6 @@ class Rectangle:
             strrep = ' '.join(('#' * pubw + '\n') * pubh)
             strrep = strrep[0:-1]
             return strrep
+
+    def __repr__(self):
+        return("Rectangle ({:d}, {:d})".format(self.__width, self.__height))
