@@ -45,6 +45,6 @@ class Rectangle:
         else:
             pubh = self.__height
             pubw = self.__width
-            strrep = ' '.join(('#' * pubw + '\n') * pubh)
+            strrep = ''.join(('#' * pubw + '\n') * pubh)
             strrep = strrep[0:-1]
             return strrep
