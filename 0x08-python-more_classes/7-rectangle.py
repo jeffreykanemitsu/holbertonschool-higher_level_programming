@@ -51,7 +51,7 @@ class Rectangle:
             pubh = self.__height
             pubw = self.__width
             strrep = ''.join((format(self.print_symbol) * pubw + '\n') * pubh)
-            strrep = strrep[0:-1]
+            strrep = strrep[:-1]
             return strrep
 
     def __repr__(self):
