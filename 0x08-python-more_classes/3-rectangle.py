@@ -38,14 +38,12 @@ class Rectangle:
     def perimeter(self):
         if self.__height == 0 or self.__width == 0:
             return 0
-        return ((self.__height * 2) + (self.__width * 2))
+        return (self.height + self.width) * 2
 
     def __str__(self):
         if self.__height == 0 or self.__width == 0:
             return ()
         else:
-            pubh = self.__height
-            pubw = self.__width
-            strrep = ''.join(('#' * pubw + '\n') * pubh)
+            strrep = ''.join(('#' * self.width + '\n') * self.height)
             strrep = strrep[0:-1]
             return strrep
