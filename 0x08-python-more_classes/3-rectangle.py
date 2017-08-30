@@ -42,7 +42,7 @@ class Rectangle:
 
     def __str__(self):
         if self.__height == 0 or self.__width == 0:
-            return ()
+            return ""
         else:
             strrep = ''.join(('#' * self.width + '\n') * self.height)
             return strrep[:-1]
