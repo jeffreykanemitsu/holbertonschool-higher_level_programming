@@ -45,5 +45,4 @@ class Rectangle:
             return ()
         else:
             strrep = ''.join(('#' * self.width + '\n') * self.height)
-            strrep = strrep[0:-1]
-            return strrep
+            return strrep[:-1]
