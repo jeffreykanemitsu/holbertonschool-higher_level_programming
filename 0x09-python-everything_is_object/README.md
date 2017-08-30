@@ -44,6 +44,7 @@
           * [Mandatory 26](#mandatory-26)
           * [Mandatory 27](#mandatory-27)
           * [Mandatory 28](#mandatory-28)
+
 ### Author ###
 * Jeffrey Kanemitsu
     * [Github](https://github.com/jeffreykanemitsu)
@@ -91,7 +92,7 @@ All your files will be interpreted/compiled on Ubuntu 14.04 LTS using 'python3' 
 * All your files must be executable
 * The length of your files will be tested using `wc`
 
-<h2>Requirements for <code>.txt</code> answer files</h2>
+### Requirements for txt answer files ###
 
 <ul>
 <li>Only one line</li>
@@ -134,6 +135,7 @@ Namespaces are one honking great idea -- let's do more of those!
 0. **Who I am?**
  <p>What function would you use to print the type of an object?
 Write the name of the function in the file, without the <code>()</code></p>
+
 #### Mandatory 1 ####
 1. **Where are you?**
 <p>How to get variable identifier (which is the memory address in the CPython implementation)?
@@ -146,6 +148,7 @@ Answer with <code>Yes</code> or <code>No</code>.</p>
 <pre><code>&gt;&gt;&gt; a = 89
 &gt;&gt;&gt; b = 100
 </code></pre>
+
 #### Mandatory 3 ####
 3. **Right count =**
 <p>In the following code, do <code>a</code> and <code>b</code> point to the same object?
@@ -153,6 +156,7 @@ Answer with <code>Yes</code> or <code>No</code>.</p>
 <pre><code>&gt;&gt;&gt; a = 89
 &gt;&gt;&gt; b = 89
 </code></pre>
+
 #### Mandatory 4 ####
 4. **Right count =**
 <p>In the following code, do <code>a</code> and <code>b</code> point to the same object?
@@ -160,6 +164,7 @@ Answer with <code>Yes</code> or <code>No</code>.</p>
 <pre><code>&gt;&gt;&gt; a = 89
 &gt;&gt;&gt; b = a
 </code></pre>
+
 #### Mandatory 5 ####
 5. **Right count =+**
   <p>In the following code, do <code>a</code> and <code>b</code> point to the same object?
@@ -176,6 +181,7 @@ Answer with <code>Yes</code> or <code>No</code>.</p>
 &gt;&gt;&gt; s2 = s1
 &gt;&gt;&gt; print(s1 == s2)
 </code></pre>
+
 #### Mandatory 7 ####
 7. **Is the same**
   <p>What should those 3 lines print:</p>
@@ -184,6 +190,7 @@ Answer with <code>Yes</code> or <code>No</code>.</p>
 &gt;&gt;&gt; s2 = s1
 &gt;&gt;&gt; print(s1 is s2)
 </code></pre>
+
 #### Mandatory 8 ####
 8. **Is really equal**
   <p>What should those 3 lines print:</p>
@@ -201,6 +208,7 @@ Answer with <code>Yes</code> or <code>No</code>.</p>
 &gt;&gt;&gt; s2 = &quot;Holberton&quot;
 &gt;&gt;&gt; print(s1 is s2)
 </code></pre>
+
 #### Mandatory 10 ####
 10. **And with a list, is it equal**
 <p>What should those 3 lines print:</p>
@@ -209,6 +217,7 @@ Answer with <code>Yes</code> or <code>No</code>.</p>
 &gt;&gt;&gt; l2 = [1, 2, 3] 
 &gt;&gt;&gt; print(l1 == l2)
 </code></pre>
+
 #### Mandatory 11 ####
 11. **And with a list, is it the same**
   <p>What should those 3 lines print:</p>
@@ -217,6 +226,7 @@ Answer with <code>Yes</code> or <code>No</code>.</p>
 &gt;&gt;&gt; l2 = [1, 2, 3] 
 &gt;&gt;&gt; print(l1 is l2)
 </code></pre>
+
 #### Mandatory 12 ####
 12. **And with a list, is it really equal**
   <p>What should those 3 lines print:</p>
@@ -234,6 +244,7 @@ Answer with <code>Yes</code> or <code>No</code>.</p>
 &gt;&gt;&gt; l2 = l1
 &gt;&gt;&gt; print(l1 is l2)
 </code></pre>
+
 #### Mandatory 14 ####
 14. **List append**
   <p>What does this script print?</p>
@@ -243,6 +254,7 @@ l2 = l1
 l1.append(4)
 print(l2)
 </code></pre>
+
 #### Mandatory 15 ####
 15. **List add**
   <p>What does this script print?</p>
@@ -252,6 +264,7 @@ l2 = l1
 l1 = l1 + [4]
 print(l2)
 </code></pre>
+
 #### Mandatory 16 ####
 16. **Integer incrementation**
   <p>What does this script print?</p>
@@ -263,6 +276,7 @@ a = 1
 increment(a)
 print(a)
 </code></pre>
+
 #### Mandatory 17 ####
 17. **List incrementation**
   <p>What does this script print?</p>
@@ -287,6 +301,7 @@ l2 = [4, 5, 6]
 assign_value(l1, l2)
 print(l1)
 </code></pre>
+
 #### Mandatory 19 ####
 19. **Copy a list object**
   <p>Write a function <code>def copy_list(l):</code> that returns a <strong>copy</strong> of a list.</p>
@@ -365,6 +380,7 @@ a is b
 </code></pre>
 
 <p><em>Who is <a href="https://twitter.com/richard_d_sim">Richard Sim</a>?</em></p>
+
 #### Mandatory 25 ####
 25. **Richard Sim's special #1**
   <p>What does this script print?</p>
