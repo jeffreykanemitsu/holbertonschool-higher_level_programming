@@ -32,7 +32,12 @@ Traceback (most recent call last):
     ...
 TypeError: list must be an integer
 
->>> bg.integer_validator("sideways8", float("inf"))
+>>> bg.integer_validator("infinity", float("inf"))
 Traceback (most recent call last):
     ...
-TypeError: sideways8 must be an integer
+TypeError: infinity must be an integer
+
+>>> bg.integer_validator("Nan", NaN)
+Traceback (most recent call last):
+    ...
+NameError: name 'NaN' is not defined
