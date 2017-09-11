@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 
 
-def __init__(self, size):
-
-
 class Square(Rectangle):
     def __init__(self, size):
         self.integer_validator("size", size)
