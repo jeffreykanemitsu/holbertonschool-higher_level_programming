@@ -3,6 +3,8 @@
 >>> a = MyList()
 >>> print(a)
 []
+>>> a.print_sorted()
+[]
 
 >>> a.append(1)
 >>> a
