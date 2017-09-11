@@ -1,7 +1,7 @@
 >>> MyList = __import__("1-my_list").MyList
 
 >>> a = MyList()
->>> a
+>>> print(a)
 []
 
 >>> a.append(1)
@@ -35,9 +35,3 @@
 Traceback (most recent call last):
    ...
 TypeError: unorderable types: str() < int()
-
->>> b = My_list()
->>> print(b)
-[]
->>> b.print_sorted()
-[]
