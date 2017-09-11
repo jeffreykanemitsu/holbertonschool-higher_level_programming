@@ -35,3 +35,9 @@
 Traceback (most recent call last):
    ...
 TypeError: unorderable types: str() < int()
+
+>>> b = My_list()
+>>> print(b)
+[]
+>>> b.print_sorted()
+[]
