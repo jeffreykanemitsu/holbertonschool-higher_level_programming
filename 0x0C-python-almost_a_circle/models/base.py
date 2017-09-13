@@ -33,6 +33,6 @@ class Base:
         returns json string representation
         '''
         if list_dictionaries is None:
-            return []
+            list_dictionaries = []
         else:
             return json.dumps(list_dictionaries)
