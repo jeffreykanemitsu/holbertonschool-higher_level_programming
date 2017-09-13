@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-import json
 '''
 Module for the Base class
 '''
+
+
+import json
 
 
 class Base:
@@ -44,4 +46,3 @@ class Base:
         writes json to file
         '''
         if list_objs is None:
-            

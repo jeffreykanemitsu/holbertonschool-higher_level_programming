@@ -106,7 +106,12 @@ class Rectangle(Base):
         '''
         overloads the __str__ that returns Rectangle
         '''
-        return ("[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}".format(self.id, self.x, self.y, self.width, self.height))
+        return ("[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}".format(
+                self.id,
+                self.x,
+                self.y,
+                self.width,
+                self.height))
 
     def update(self, *args):
         if len(args) > 0:

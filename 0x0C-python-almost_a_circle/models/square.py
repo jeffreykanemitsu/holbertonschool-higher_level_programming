@@ -21,7 +21,7 @@ class Square(Rectangle):
         return self.width
 
     @size.setter
-    def size(self, value)
+    def size(self, value):
         '''
         setter for square size
         '''
@@ -32,9 +32,13 @@ class Square(Rectangle):
         '''
         overloads the __str__ that rturns square
         '''
-        return "[Square] ({:d}) {:d}/{:d} - {:d}".format(self.id, self.x, self.y, self.size)
+        return "[Square] ({:d}) {:d}/{:d} - {:d}".format(
+            self.id,
+            self.x,
+            self.y,
+            self.size)
 
-  def to_dictionary(self):
+    def to_dictionary(self):
         '''
         returns the dict representation of Rectangle
         '''
