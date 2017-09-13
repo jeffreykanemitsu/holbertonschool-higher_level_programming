@@ -121,9 +121,24 @@ class Rectangle(Base):
         '''
         my_dict = {}
         my_dict['id'] = self.id
-        my_dict['size'] = self.size
         my_dict['width'] = self.width
         my_dict['height'] = self.height
         my_dict['x'] = self.x
         my_dict['y'] = self.y
         return my_dict
+
+    def update(self, *args):
+        '''
+        assigns argument to each attribute
+        '''
+        for x, y in enumerate(args):
+            if x == 0:
+                self.id = y
+            elif x == 1:
+                self.width = y
+            elif x == 2:
+                self.height = y
+            elif x == 3:
+                self.x = y
+            elif x == 4:
+                self.y = y
