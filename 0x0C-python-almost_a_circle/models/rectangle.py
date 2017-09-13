@@ -127,7 +127,7 @@ class Rectangle(Base):
         my_dict['y'] = self.y
         return my_dict
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         '''
         assigns argument to each attribute
         '''
@@ -142,3 +142,15 @@ class Rectangle(Base):
                 self.x = y
             elif x == 4:
                 self.y = y
+
+        for key, val in kwargs.items():
+            if key == 'id':
+                self.id = val
+            elif key == 'width':
+                self.width = val
+            elif key == 'height':
+                self.height = val
+            elif key == 'x':
+                self.x = val
+            elif key == 'y':
+                self.y = val
