@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-from rectangle import Rectangle
 '''
 Module for the Square class
 '''
+
+
+from rectangle import Rectangle
 
 
 class Square(Rectangle):
