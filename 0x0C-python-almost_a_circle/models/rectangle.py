@@ -115,20 +115,6 @@ class Rectangle(Base):
                 self.width,
                 self.height))
 
-    def update(self, *args):
-        if len(args) > 0:
-            for len(x), att_list in kwargs.items():
-                if x == 4:
-                    self.y = att_list
-                if x == 3:
-                    self.x = att_list
-                if x == 2:
-                    self.height = att_list
-                if x == 1:
-                    self.width == att_list
-                if x == 0:
-                    self.id = att_list
-
     def to_dictionary(self):
         '''
         returns the dict representation of Rectangle
