@@ -2,8 +2,6 @@
 '''
 Module for the Base class
 '''
-
-
 import json
 
 
@@ -28,7 +26,7 @@ class Base:
             '''
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
-
+    '''
     @staticmethod
     def to_json_string(list_dictionaries):
         '''
@@ -45,3 +43,4 @@ class Base:
         writes json to file
         '''
         if list_objs is None:
+    '''
