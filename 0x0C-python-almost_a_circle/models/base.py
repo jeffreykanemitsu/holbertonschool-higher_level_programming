@@ -26,12 +26,10 @@ class Base:
             '''
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
-    '''
+'''
     @staticmethod
     def to_json_string(list_dictionaries):
-        '''
         returns json string representation
-        '''
         if list_dictionaries is None:
             return {}
         else:
@@ -39,8 +37,6 @@ class Base:
 
     @classmethod
     def save_to_file(cls, list_objs):
-        '''
         writes json to file
-        '''
         if list_objs is None:
-    '''
+'''
