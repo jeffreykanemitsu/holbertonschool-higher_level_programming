@@ -50,3 +50,27 @@ class Square(Rectangle):
         my_dict['x'] = self.x
         my_dict['y'] = self.y
         return my_dict
+
+    def update(self, *args, **kwargs):
+        '''
+        assigns attributes in the class Square
+        '''
+        for x, val in enumerate(args):
+            if x == 0:
+                self.id = val
+            if x == 1:
+                self.size = val
+            if x == 2:
+                self.x = val
+            if x == 3:
+                self.y = val
+
+        for key, val in kwargs.items():
+            if key == 'id':
+                self.id = val
+            elif key == 'size':
+                self.size = val
+            elif key == 'x':
+                self.x = val
+            elif key == 'y':
+                self.y = val
