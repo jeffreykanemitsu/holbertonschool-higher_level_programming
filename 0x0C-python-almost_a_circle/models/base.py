@@ -45,7 +45,7 @@ class Base:
         for obj in list_objs:
             js.append(obj.to_dictionary())
         js = Base.to_json_string(js)
-        with open("{:s}.csv".format(cls.__name__), 'w') as fn:
+        with open("{:s}.json".format(cls.__name__), 'w') as fn:
             fn.write(js)
 
     @classmethod
