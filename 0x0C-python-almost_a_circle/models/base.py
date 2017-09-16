@@ -48,12 +48,12 @@ class Base:
         with open("{:s}.json".format(cls.__name__), 'w') as fn:
             fn.write(js)
 
-    @classmethod
+    @staticmethod
     def from_json_string(json_string):
         '''
         returns list of json_string representation
         '''
-        if json_string is None or json_string == {}:
+        if json_string is None:
             return "[]"
         return json.loads(json_string)
 
