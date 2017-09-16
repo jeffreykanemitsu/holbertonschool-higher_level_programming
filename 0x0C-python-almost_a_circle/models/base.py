@@ -35,3 +35,36 @@ class Base:
         if list_dictionaries is None or list_dictionaries == {}:
             return "[]"
         return json.dumps(list_dictionaries)
+
+    @classmethod
+    def save_to_file(cls, list_objs):
+        '''
+        writes the json string representation of list_objs to a file
+        '''
+        js = []
+        for obj in list_objs:
+            js.append(obj.to_dictionary())
+        js = Base.to_json_string(js)
+        with open("{:s}.csv".format(cls.__name__), 'w') as fn:
+            fn.write(js)
+
+    @classmethod
+    def from_json_string(json_string):
+        '''
+        returns list of json_string representation
+        '''
+        if json_string is None or json_string == {}:
+            return "[]"
+        return json.loads(json_string)
+
+    @classmethod
+    def create(cls, **dictionary):
+        '''
+        returns an instance with all attributes already set
+        '''
+        if cls.__name__ is "Rectangle":
+            dummy = cls(1, 1)
+        elif cls.__name__ is "Square":
+            dummy = cls(1)
+        dummy.update(**dictionary)
+        return dummy
