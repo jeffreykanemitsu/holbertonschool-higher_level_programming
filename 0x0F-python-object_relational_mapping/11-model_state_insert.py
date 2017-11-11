@@ -14,5 +14,8 @@ if __name__ == "__main__":
     Base.metadata.create_all(ngin)
     Session = sessionmaker(bind=ngin)
     session = Session()
-    session.add(State(name='Louisiana'))
+    state = State(name='Louisiana')
+    session.add(state)
     session.commit()
+    for stateid in session.query(State.id).filter_by(name='Louisiana'):
+        print(stateid[0])
