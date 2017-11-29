@@ -5,7 +5,6 @@ of the response (decoded in utf-8)
 '''
 import urllib.request
 import urllib.error
-import urllib.parse
 from sys import argv
 
 
