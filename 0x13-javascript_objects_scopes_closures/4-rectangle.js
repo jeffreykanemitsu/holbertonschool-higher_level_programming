@@ -13,12 +13,12 @@ module.exports = class Rectangle {
     }
   }
   rotate () {
-	  let newWidth = this.width;
-	  this.width = this.height;
-	  this.height = newWidth;
+    let newWidth = this.width;
+    this.width = this.height;
+    this.height = newWidth;
   }
   double () {
-	  this.width *= 2;
-	  this.height *= 2;
+    this.width *= 2;
+    this.height *= 2;
   }
 };
