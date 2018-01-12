@@ -10,11 +10,11 @@ request(url, function (err, response, body) {
   } else {
     let count = 0;
     for (let i = 0; i < JSON.parse(body).results.length; i++) {
-       for (let j = 0; j < JSON.parse(body).results[i].characters.length; j++) {
-      	    if (JSON.parse(body).results[i].characters[j].endsWith('/18/')) {
-        count++;
+      for (let j = 0; j < JSON.parse(body).results[i].characters.length; j++) {
+        if (JSON.parse(body).results[i].characters[j].endsWith('/18/')) {
+          count++;
+        }
       }
-    }
     }
     return console.log(count);
   }
